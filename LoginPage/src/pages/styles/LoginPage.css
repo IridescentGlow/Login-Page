@@ -1,9 +1,9 @@
 .log-state {
-    color: white;
-    font-weight: 500;
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 20px;
+  color: white;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .wrapper {
@@ -36,7 +36,7 @@
   background: transparent;
   outline: none;
   border: 2px solid rgba(255, 255, 255, 0.2);
-  border-radius: 20px;
+  border-radius: 10px;
   font-size: 16px;
   color: white;
   padding: 20px 45px 20px 20px;
@@ -101,14 +101,63 @@
 }
 
 .login-options {
-    font-size: 30px;
-    display: flex;
-    justify-content: space-around;
-    margin: 30px 90px;
-} 
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 90px;
+}
 
 .login-options a:hover {
-    cursor: pointer;
-    color: rgb(212, 212, 212);
-    transition: ease all 0.3s;
+  cursor: pointer;
+  color: rgb(212, 212, 212);
+  transition: ease all 0.3s;
+}
+
+.logged-in {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+}
+
+nav {
+  font-family: "Poppins", sans-serif;
+  background-color: transparent;
+  padding: 1rem;
+  margin-top: 100px;
+}
+
+nav-link {
+  font-size: 3em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: 0.3s ease all;
+}
+
+nav a:hover {
+  color: rgb(219, 219, 219);
+}
+
+.welcome-back {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
+  margin-bottom: 50px;
 }
