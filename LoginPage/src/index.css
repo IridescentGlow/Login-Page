@@ -1,4 +1,25 @@
-:root {
+@import "tailwindcss";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('./pages/styles/images/Background.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +86,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
